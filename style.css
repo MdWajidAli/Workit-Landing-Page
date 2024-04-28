@@ -1,0 +1,181 @@
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+   
+}
+
+.container{
+   height: 730px;
+   width: 100%;
+   background-color:#24053e;
+   
+}
+.nav{
+   padding: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.nav img{
+   margin-top: 50px;
+   margin-left: 125px;
+}
+
+.nav button{
+   margin-top: 50px;
+   margin-right: 125px;
+   background-color: #24053e;
+   border: none;
+   color: white;
+   text-decoration-line: underline;
+   text-decoration-color: #44ffa1;
+   text-decoration-thickness: 2px;
+   text-underline-offset: 5px;
+}
+
+.herotext{
+   margin-top: 40px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   
+}
+
+.herotext h1{
+   color : white;
+   font-size: 75px;
+   width: 635px;
+   
+}
+
+.herotext h1 u{
+   text-decoration-color: #44ffa1;
+   text-underline-offset: 10px;
+  
+}
+
+.herotext button{
+   height: 50px;
+   width: 125px;
+   background-color: #44ffa1;
+   font-weight: 600;
+   cursor: pointer;
+   
+}
+
+.herotext #btn:hover{
+   background-color: #24053e;
+   color : #44ffa1;
+   border : 2px solid #44ffa1;
+}
+
+.heroimg{
+   
+   align-items: center;
+   height: 500px;
+   width: 100%;
+   border : 1px light #000;
+   overflow: hidden;
+   /* position: relative; */
+   margin-top: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 100px;
+   
+}
+
+.heroimg img{
+   max-width: 100%;
+   max-height: 100%;
+   display: block;
+   object-fit: contain;
+}
+
+.catalog{
+   margin-top:300px;
+   height: 300px;
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   text-align: center;
+   background-color: #fcf8ff;
+}
+
+
+#one{
+   height: 250px;
+   width: 250px;
+}
+
+#two{
+   height: 250px;
+   width: 250px;
+}
+
+#three{
+   height: 250px;
+   width: 250px;
+}
+
+
+.section {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background-color: #ffffff; /* Replace with the actual background color */
+ }
+ 
+ .image {
+   flex-basis: 40%;
+   position: relative;
+ }
+ 
+ .image img {
+   width: 100%; /* Adjust as needed */
+   height: auto;
+   border-radius: 50%; /* Makes the image round */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%); /* Centers the image */
+   border: 5px solid green; /* The color and width of the circular border */
+ }
+ 
+ .content {
+   flex-basis: 60%;
+   background-color: purple; /* Replace with the actual color */
+   color: white; /* Adjust text color as needed */
+   padding: 20px;
+   position: relative;
+ }
+ 
+ .content h1 {
+   font-size: 2em; /* Adjust as needed */
+ }
+ 
+ .content p {
+   font-size: 1em; /* Adjust as needed */
+ }
+ 
+ .access-button {
+   background-color:#44ffa1;/* Replace with the actual button background color */
+   color: black;
+   border: none;
+   padding: 10px 20px;
+   font-size: 0.80em;
+   cursor: pointer;
+   border : 2px solid #44ffa1
+ }
+ 
+ .access-button:hover {
+   color : #44ffa1;
+   background-color:#24043E /* Darker shade for hover effect */
+ }
+ 
